@@ -1,0 +1,321 @@
+@font-face {
+    font-family: AngelWish;
+    src: url(/fonts/Angel\ wish.ttf);
+    
+    
+}
+
+h1{
+    font-family: AngelWish;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 250px;
+
+    color: white;
+
+    background-image: linear-gradient(
+            0deg,rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+          ),url(/images/iPhone\ 14\ -\ 7.png);
+background-size: cover;
+/* background-position-y: -110px;
+background-position-x: -140px; */
+background-repeat: no-repeat;
+display: inline-block;
+
+
+         
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+    font-family: AngelWish;
+   
+}
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+  
+}
+
+
+footer video{
+    width:100%; height:112px;
+ 
+   /*  position: relative;
+    bottom: 0; */
+    object-fit:inherit
+
+}
+
+
+main{
+    background-color: black;
+
+   
+}
+
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: AngelWish;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+    
+
+   
+
+
+
+
+
+/* img{
+    width: 473px;
+height: 503px;
+    position:absolute;
+    top: -10px;
+    right: -130px;
+} */
+
+
+
+    .ojos {
+        width: 35px;
+        height: 17px;
+        position: absolute;
+        top: 160px;
+        left: 240px;
+     
+        animation-name: ojos;
+        animation-duration: 4s ;
+    }
+
+    
+    @keyframes ojos{
+    
+    0% {
+        opacity: 0;
+
+    }
+
+    
+  
+
+    100% {
+        opacity: 1;
+
+    }
+
+
+
+
+
+
+
+}
+
+
+ul{
+    text-align: right;
+    margin-right: 60px;
+    
+}
+
+footer{
+    background-color: black;
+    margin-bottom: 0;
+    
+}
+
+
+h3{
+    color: white;
+    font-family: AngelWish;
+    
+    font-weight: 400;
+    font-size: 19px;
+    margin: 0;
+    position: absolute;
+    top: 1080px;
+    left: 235px;
+  
+}
+
+.iconos{
+
+   
+    font-size: 20px;
+display: inline;
+/* position: relative;
+bottom: 40px; */
+position: absolute;
+left: 190px;
+top: 1020px;
+
+}
+
+
+
+
+.Carousel{
+    width: 100%;
+    margin: 0px 60px;
+}
+/* .Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+} */
+
+/* images */
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick{
+    position: relative;
+    width: 180px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+/* .slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+} */
+/* .slick h4 small{
+    font-size: 15px;
+    display: block;
+} */
+.slick a img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick a img:hover{
+    opacity: .85;
+}
+
+/* buttons */
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0px;
+}
+
+
+
+
+.se{
+    padding-top: 0;
+}
+
+
+
+.slickx{
+    position: relative;
+    width: 180px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+/* .slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+} */
+/* .slick h4 small{
+    font-size: 15px;
+    display: block;
+} */
+.slickx a img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+
